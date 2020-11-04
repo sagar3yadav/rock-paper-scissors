@@ -6,7 +6,7 @@
 	<version>1.0-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>roshambo</name>
+	<name>s3g3r</name>
 
 
 	<dependencies>
@@ -39,9 +39,6 @@
 		    <version>1.3.6</version>
 		    <configuration>
 			<repository>${docker.image.prefix}/${project.artifactId}</repository>
-			<buildArgs>
-			    <JAR_FILE>target/${project.build.finalName}.jar</JAR_FILE>
-			</buildArgs>
 		    </configuration>
 		</plugin>
 	    </plugins>
